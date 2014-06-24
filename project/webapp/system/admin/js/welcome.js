@@ -22,7 +22,7 @@ Ext.onReady(function() {
 
 	var my_height1 = document.body.clientHeight - 35;
 	var my_height = document.body.clientHeight - 65;
-	var my_sina = '<div class=commoncss><iframe width="100%" height="' + my_height + '" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=zh_cn&width=0&height=' + my_height + '&fansRow=2&ptype=1&speed=300&skin=5&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=2756431474&verifier=3f8e70e3&dpc=1"></iframe></div>';
+	var my_sina = '<div style="margin:10px"><a href="http://42.120.21.17:8888/g4studio/g4studio-doc.zip">《G4Studio开发指南》下载</a></div>';
 	var viewport = new Ext.Viewport({
 		layout : 'border',
 		items : [{
@@ -45,7 +45,7 @@ Ext.onReady(function() {
 						items : [{
 							title : '联系方式',
 							// tools : tools,
-							html : '<div style=height:60px;line-height:25px class=commoncss>&nbsp;&nbsp;电子邮箱: ouraos@qq.com<br>&nbsp;&nbsp;官方网站：<a href="http://www.g4it.org" target="_blank">www.g4it.org</a></div>'
+							html : '<div style=height:60px;line-height:25px class=commoncss>&nbsp;&nbsp;电子邮箱: ouraos@qq.com<br>&nbsp;&nbsp;项目主页：<a href="http://www.g4it.org" target="_blank">www.g4it.org</a></div>'
 						}, {
 							title : '舍我其谁',
 							// tools : tools,
